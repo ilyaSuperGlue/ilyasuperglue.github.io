@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title id="pageTitle">Demo — Ilyas Abdurahman Yusuf</title>
+        <link rel="icon" href="images/favicon.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="demo.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <a
+                href="index.html#open-sourcery"
+                class="back-link"
+                aria-label="Back"
+            >
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <a href="index.html" class="logo-link desktop-only">
+                <img src="images/icon.webp" alt="logo" class="logo-icon" />
+            </a>
+            <nav class="desktop-nav demo-nav">
+                <a href="#sherlock-js" class="nav-link">sherlock-js</a>
+                <a href="#react-native-reanimated-confetti" class="nav-link"
+                    >react-native-reanimated-confetti</a
+                >
+            </nav>
+        </header>
+
+        <main class="demo-wrapper">
+            <div class="demo-heading">
+                <h1 id="demoTitle" class="title text-left">Demo</h1>
+                <a
+                    id="githubLink"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    class="demo-github"
+                >
+                    <i class="fa-brands fa-github"></i>
+                    <span>View source on Github</span>
+                </a>
+            </div>
+
+            <div class="npm-row">
+                <span id="npmLine">npm install ...</span>
+                <button
+                    id="copyBtn"
+                    class="copy-btn"
+                    aria-label="Copy install command"
+                >
+                    <i class="fa-regular fa-copy"></i>
+                </button>
+                <span id="copiedTag" class="copied-tag">Copied!</span>
+            </div>
+
+            <p class="mobile-note">
+                This embeds the project's live <strong>Expo Snack</strong>. On
+                some mobile browsers the embed may render better if opened
+                directly in Expo Snack (use the button above the frame).
+            </p>
+
+            <div class="snack-frame-wrap">
+                <div class="snack-toolbar">
+                    <span id="snackToolbarTitle">Snack</span>
+                    <a
+                        id="snackOpenNew"
+                        href="#"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Open in Expo Snack
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+                <iframe
+                    id="snackFrame"
+                    class="snack-iframe"
+                    src=""
+                    allow="
+                        accelerometer;
+                        ambient-light-sensor;
+                        camera;
+                        encrypted-media;
+                        geolocation;
+                        gyroscope;
+                        hid;
+                        microphone;
+                        midi;
+                        payment;
+                        usb;
+                        vr;
+                        xr-spatial-tracking;
+                    "
+                    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+                ></iframe>
+            </div>
+        </main>
+
+        <script src="demo.js"></script>
+    </body>
+</html>
