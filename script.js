@@ -127,7 +127,7 @@ libraries.forEach((lib) => {
       <a class="lib-btn lib-btn-github" href="${lib.git}" target="_blank" rel="noopener">
         <i class="fa-brands fa-github"></i><span>Github</span>
       </a>
-      <a class="lib-btn lib-btn-demo" href="demo.html?name=${encodeURIComponent(lib.name)}&url=${encodeURIComponent(lib.snack.url)}&device=${lib.snack.preferedDevice}">
+      <a class="lib-btn lib-btn-demo" href="demo.html#${encodeURIComponent(lib.name)}">
         <i class="fa-solid fa-code"></i><span>Demo</span>
       </a>
     </div>
